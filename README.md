@@ -1,21 +1,21 @@
 # django_gettingstarted
 This repo should be useless to everyone except me :)
 
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNN____NN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNN____NN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNN____NN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNN_________NN____NNN7_______NNN_________NNNNNNNN_________NNN______+NNNNNNNN
-NNNNN___________NN____NNN_________NN___________NNN___________NN__________NNNNNNN
-NNNN_____NNN____NN____NNNNNNNN____NN____NNN____NN____NNN____NN____NNNN____NNNNNN
-NNNN____NNNN____NN____NNNN________NN____NNN____N____NNNN____NN____NNNN____NNNNNN
-NNNN____NNNN____NN____NN__________NN____NNN____N____NNNN____NN____NNNN____NNNNNN
-NNNN_____NNN____NN____NN___NNNN___NN____NNN____NN____NNN____NN____NNNN____NNNNNN
-NNNNN___________NN____NN__________NN____NNN____NN___________NNN__________NNNNNNN
-NNNNNNN_________NN____NNN_________NN____NNN____NNNN_________NNNN________NNNNNNNN
-NNNNNNNNNNNNNNNNNN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN____NNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNNNNNNN____NNNNNNNNNNNNNNNNNNNNNNNNNNNNINNNNN_____NNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNNNNN?____NNNNNNNNNNNNNNNNNNNNNNNNNNNNN__________NNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN________NNNNNNNNNNNNNNNNNNNNNNN
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+######################################################
+######################################################
+##############   ####################   ##############
+############       ################       ############
+############   O   ################   O   ############
+############       ################       ############
+##############   ####################   ##############
+######################################################
+##########################   #########################
+##########################   #########################
+########################       #######################
+##########   #############   ###########    ##########
+###########    ########################   ############
+#############    ####################    #############
+##############                          ##############
+######################################################
+######################################################
+######################################################
