@@ -1,0 +1,27 @@
+{% comment %}
+    
+{% if latest_questions %}
+    <ul>
+    {% for question in latest_questions %}
+        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
+
+{% endcomment %}
+
+
+{% if latest_questions %}
+    <ul>
+        {% for question in latest_questions %}
+            {% comment %}
+                <li><a href="/polls/{{question.id}}/">{{question.question_text}}</a></li>
+            {% endcomment %}
+                <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

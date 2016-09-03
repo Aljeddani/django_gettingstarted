@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Detail Page</title>
+</head>
+<body>
+<h1>{{question}}</h1>
+{% for choice in question.choice_set.all %}
+	<li>{{choice}}</li>
+{% endfor %}
+</body>
+</html>
