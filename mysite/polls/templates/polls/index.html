@@ -13,7 +13,7 @@
 {% endcomment %}
 
 
-{% if latest_questions %}
+{% if get_queryset() %}
     <ul>
         {% for question in latest_questions %}
             {% comment %}
