@@ -1,8 +1,10 @@
+<a href="{% url 'polls:index' %}"><h3>Home</h3></a>
+
 <h3>Q) {{ question.question_text }}</h3>
 
 
 <ul>
     {% for choice in question.choice_set.all %}
-        <li>{{ choice.choice_text }} -- {{ choice.votes }} vote</li>
+        <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{choice.votes|pluralize}}</li>
     {% endfor %}
 </ul>

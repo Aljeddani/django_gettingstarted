@@ -13,15 +13,23 @@
 {% endcomment %}
 
 
-{% if get_queryset() %}
+{% if latest_question_list %}
     <ul>
-        {% for question in latest_questions %}
+        {% for question in latest_question_list %}
             {% comment %}
                 <li><a href="/polls/{{question.id}}/">{{question.question_text}}</a></li>
             {% endcomment %}
                 <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
         {% endfor %}
     </ul>
+
+    <form action="{% url 'polls:add_question' %}" method="post">
+        {% csrf_token %}
+        <label>Add New Question:</label>
+        <input type="input" name="new_question">
+        <input type="submit" name="Add">        
+    </form>
+
 {% else %}
     <p>No polls are available.</p>
 {% endif %}

@@ -20,6 +20,7 @@
      question.id will be passed as an argument to be used in ?P<question_id>
 {% endcomment %}
 
+	
 <form action="{% url 'polls:vote' question.id %}" method="post">
 {% csrf_token %}
 {% for choice in question.choice_set.all %}
@@ -31,6 +32,12 @@
 <input type="submit" value="Vote" />
 </form>
 
+<form action="{% url 'polls:add_choice' question.id %}" method="post">
+{% csrf_token %}
+	<label>Enter New Choice:</label>
+	<input type="text" name="new_choice" id="new_choice">
+	<input type="submit" value="Add">
+</form>
 
 
 </body>
